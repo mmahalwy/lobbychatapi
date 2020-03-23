@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  time_start: 2020-03-22 21:40:57
+  time_end: 2020-03-22 21:40:57
+  timezone: MyString
+  url: MyString
+  host_twitter: MyString
+
+two:
+  title: MyString
+  description: MyText
+  time_start: 2020-03-22 21:40:57
+  time_end: 2020-03-22 21:40:57
+  timezone: MyString
+  url: MyString
+  host_twitter: MyString

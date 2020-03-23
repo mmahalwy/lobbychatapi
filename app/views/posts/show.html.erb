@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @post.description %>
+</p>
+
+<p>
+  <strong>Time start:</strong>
+  <%= @post.time_start %>
+</p>
+
+<p>
+  <strong>Time end:</strong>
+  <%= @post.time_end %>
+</p>
+
+<p>
+  <strong>Timezone:</strong>
+  <%= @post.timezone %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @post.url %>
+</p>
+
+<p>
+  <strong>Host twitter:</strong>
+  <%= @post.host_twitter %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
