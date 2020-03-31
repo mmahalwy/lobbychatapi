@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2020_03_23_014057) do
     t.string "timezone"
     t.string "url"
     t.string "host_twitter"
+    t.boolean "approved", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

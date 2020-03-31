@@ -8,8 +8,10 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.string :timezone
       t.string :url
       t.string :host_twitter
+      t.boolean :approved, default: false
 
       t.timestamps
     end
   end
 end
+
